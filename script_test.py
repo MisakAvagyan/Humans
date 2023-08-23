@@ -1,8 +1,8 @@
 import os
-temp = '/Users/misakavagyan/test'
+temp = '/Users/misakavagyan/work/test'
 
 
-with open('results', 'w') as f:
+with open('test/results', 'w') as f:
     files = os.listdir(temp)
     for file in sorted(files):
         file_path = os.path.join(temp, file)
