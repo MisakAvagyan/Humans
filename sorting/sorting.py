@@ -32,11 +32,11 @@ while run:
 
 
 if sort == 'Name':
-    sorted_people = sorted(lst, key=lambda x: x.Name)
+    sorted_people = sorted(lst, key=lambda srt: srt.Name)
 elif sort == 'Surname':
-    sorted_people = sorted(lst, key=lambda x: x.Surname)
+    sorted_people = sorted(lst, key=lambda srt: srt.Surname)
 elif sort == 'Age':
-    sorted_people = sorted(lst, key=lambda x: x.Age)
+    sorted_people = sorted(lst, key=lambda srt: srt.Age)
 
 for person in sorted_people:
     print(f"{person.Name} {person.Surname}, {person.Age}")
